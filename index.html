@@ -7,44 +7,147 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" /> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Special+Elite&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <script src="/parallax/parallax.min.js"></script>
 </head>
 
 <body>
+    <header>
+        <!-- <div class="mobile-container">
+            <div class="topnav">
+                <a onclick="myFunction()" class="d-none d-sm-block d-xs-block">Logo</a>
+                <a href="javascript:void(0);" class="icon d-none d-sm-block d-xs-block" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="myLinks">
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </div>
+
+            </div>
+
+        </div> -->
+        <!-- <div class="trialnav">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="toggle" data-target="#demo">
+            <i class="glyphicon glyphicon-plus"></i>
+          </button>
+
+            <div id="demo" class="">
+                <button class="btn btn-default btn-xs" type="button">
+              <span class="glyphicon glyphicon-star"></span> Star
+            </button>
+                <button class="btn btn-default btn-xs" type="button">
+              <span class="glyphicon glyphicon-star"></span> Star
+            </button>
+                <button class="btn btn-default btn-xs" type="button">
+              <span class="glyphicon glyphicon-star"></span> Star
+            </button>
+                <button class="btn btn-default btn-xs" type="button">
+              <span class="glyphicon glyphicon-star"></span> Star
+            </button>
+            </div>
+        </div> -->
+
+        <!-- <nav id="mainNavbar" class="navbar navbar-expand-lg mb-0 bg-dark navbar-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">Nishita A.<i class="fas fa-laptop-code"></i></a>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </nav> -->
+
+        <!-- <nav id="mainNavbar" class="navbar navbar-expand-lg mb-0 bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Nishita A.<i class="fas fa-laptop-code"></i></a>
+
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link " href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+
+
+        </nav> -->
+
+
+    </header>
+    <!-- <header>
+        <nav id="mainNavbar" class="navbar navbar-expand-lg mb-0 bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Nishita A.<i class="fas fa-laptop-code"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                </ul>
+                <ul class="navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+        </nav>
+
+    </header> -->
+
 
     <section id="home">
-        <!-- <div class="parallax-window" data-parallax="scroll" data-z-index="-100" data-image-src="/stylesheets/aman-dhakal-YkWz_coLm84-unsplash.jpg"> -->
         <div class="parallax">
-            <nav id="mainNavbar" class="navbar navbar-expand-lg mb-0 fixed-top">
-                <a class="navbar-brand" href="#">Nishita A.<i class="fas fa-laptop-code"></i></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
-                    </ul>
-                    <ul class="navbar-nav navbar-right">
-                        <li class="nav-item">
-                            <a class="nav-link " href="#about">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">PROJECTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">CONTACT</a>
-                        </li>
-                    </ul>
-            </nav>
+            <div class="trialnav fixed-top">
+                <button type="button" class="btn btn-light btn-lg ml-2 mt-2" data-toggle="toggle" data-target="#demo">
+                    <i class="fas fa-bars"></i>
+              </button>
 
+                <div id="demo" class="">
+                    <button class="btn btn-default btn-xs"><a class="navigationlinks" href="#home" style="text-decoration: none;"> HOME </a></button>
+                    <button class="btn btn-default btn-xs"><a class="navigationlinks" href="#about" style="text-decoration: none;"> ABOUT </a></button>
+                    <button class="btn btn-default btn-xs"><a class="navigationlinks" href="#projects" style="text-decoration: none;"> PROJECTS </a></button>
+                    <button class="btn btn-default btn-xs"><a class="navigationlinks" href="#contact" style="text-decoration: none;"> CONTACT </a></button>
+
+                </div>
+            </div>
             <div id="particles-js">
                 <div class="containerintro">
                     <h1 class=" welcome ">Welcome! I am Nishita Acharya.</h1>
@@ -53,7 +156,7 @@
 
                 <div class="fadingout">
                     <p class="text-center">Scroll down to learn more</p>
-                    <!-- <div class="scrollanim"> -->
+
                     <div class="scrollicon">
                         <a href="#about">
                             <div class="mouse">
@@ -61,12 +164,10 @@
                             </div>
                         </a>
                     </div>
-                    <!-- </div> -->
                 </div>
             </div>
-            </div>
+        </div>
 
-            <!-- </div> -->
     </section>
 
 
@@ -188,7 +289,9 @@
     </section>
 
     <section id="projects">
+
         <div class="container">
+
             <h1 id="titleprojects" class="text-center my-4">My projects</h1>
             <div class="cta filter text-center mt-4 mb-3">
                 <a class="all active btn btn-outline-primary" data-filter="all" href="#" role="button">Show All</a>
@@ -313,6 +416,7 @@
             </div>
         </div>
         <section id="contact">
+
             <div class="row text-center py-5">
                 <div class="col-md-12">
                     <h1 class="contactme">CONTACT</h1>
@@ -340,6 +444,25 @@
             </div>
         </section>
     </section>
+
+
+    <script>
+        $("[data-toggle='toggle']").click(function() {
+            var selector = $(this).data("target");
+            $(selector).toggleClass('in');
+        });
+    </script>
+
+    <!-- <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script> -->
 
     <script>
         $('#gmail').on('click', function() {
@@ -423,7 +546,7 @@
         $(function() {
             $(document).scroll(function() {
                 var $about = $("#about");
-                var $nav = $("#mainNavbar");
+                var $nav = $("#trialnav");
 
                 $nav.toggleClass("scrolled", $(this).scrollTop() > ($about.height() - 280));
             })
