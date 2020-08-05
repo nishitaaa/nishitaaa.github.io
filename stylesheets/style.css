@@ -25,21 +25,38 @@ body {
     font-family: 'Raleway', sans-serif;
     /* text-shadow: 1px 0 rgba(104, 104, 104, 0.8); */
     text-shadow: 1px 0px rgba(0, 0, 0, 0.5);
+    padding: 5px 4px;
+    border-radius: 5px;
 }
 
 .navigationlinks:hover {
     color: white;
+    background-color: #000b80;
     text-shadow: 1px 0px rgba(15, 15, 15, 0.5);
 }
 
-#trialnav.scrolled {
-    background: #AEAEAE;
-    opacity: 0.8;
-    transition: background 500ms;
+#brand {
+    /* font-family: 'Montserrat', sans-serif; */
+    /* text-transform: uppercase; */
+    /* color: white; */
+    color: #000b80;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    /* font-weight: bold; */
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Special Elite', cursive;
+    /* font-family: 'Cutive Mono', monospace; */
+    /* font-family: 'Nanum Gothic Coding', monospace; */
+    /* font-family: 'Courier Prime', monospace; */
 }
 
 #demo.in {
-    width: 420px;
+    width: 460px;
 }
 
 
