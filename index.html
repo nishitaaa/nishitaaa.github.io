@@ -298,10 +298,10 @@
                 <a class="btn btn-outline-primary" data-filter="others" href="#" role="button">Others</a>
             </div>
 
-            <div class="boxes">
+            <div class="boxes" data-aos="fade-up">
 
                 <div class="projectscontainer">
-                    <div class="row mb-3" data-aos="fade-right">
+                    <div class="row mb-3">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-3">
                             <div class="single-content" data-category="personal">
                                 <img src="stylesheets/yelpcamp1.jpg" alt="">
@@ -356,7 +356,7 @@
                         </div>
                     </div>
 
-                    <div class="row mb-5" data-aos="fade-left">
+                    <div class="row mb-5">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-3">
                             <div class="single-content" data-category="school">
                                 <img src="stylesheets/art1.jpg" alt="">
@@ -556,7 +556,7 @@
     <script>
         AOS.init({
             disable: function() {
-                var maxWidth = 400;
+                var maxWidth = 100;
                 return window.innerWidth < maxWidth;
             },
             offset: 130,
