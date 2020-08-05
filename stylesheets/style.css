@@ -59,6 +59,7 @@ body {
 #home {
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
 #projects {
@@ -520,12 +521,15 @@ footer {
     height: 100vh;
     width: 100%;
     z-index: 0;
+    position: relative;
     /* z-index: 0; */
 }
 
 .parallax .fadingout {
     position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     height: 100px;
     z-index: 3;
