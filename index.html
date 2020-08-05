@@ -8,9 +8,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" /> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -358,7 +356,7 @@
                         </div>
                     </div>
 
-                    <div class="row mb-5" data-aos="fade-left" data-aos-offset="20">
+                    <div class="row mb-5" data-aos="fade-left">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-3">
                             <div class="single-content" data-category="school">
                                 <img src="stylesheets/art1.jpg" alt="">
@@ -554,7 +552,17 @@
             })
         })
     </script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            disable: function() {
+                var maxWidth = 400;
+                return window.innerWidth < maxWidth;
+            },
+            offset: 130,
+            duration: 1000
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js "></script>
     <!-- <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script> -->
@@ -571,13 +579,7 @@
             console.log('callback - particles.js config loaded');
         });
     </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 130,
-            duration: 1000
-        });
-    </script>
+
 
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.js "></script> -->
