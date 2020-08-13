@@ -128,7 +128,8 @@ body {
     /* background-color: rgb(38, 38, 38); */
     /* background-color: #353b48; */
     /* background-color: #718093; */
-    background-color: #2c2c54;
+    /* background-color: #2c2c54; purple */
+    background-color: #192a56;
     /* background-color: #192a56; */
     margin: 0;
     padding: 0;
@@ -199,7 +200,8 @@ footer {
     border-radius: 30%;
     box-shadow: 0 5px 15px 1px #00000070;
     /* color: #3498db; */
-    color: #706fd3;
+    /* color: #706fd3; */
+    color: #357ec7;
     overflow: hidden;
     position: relative;
 }
