@@ -66,6 +66,36 @@ body {
     width: 410px;
 }
 
+#html,
+#css,
+#js,
+#java,
+#php,
+#csharp,
+#mongodb,
+#sql,
+#firebase,
+#node,
+#express,
+#heroku,
+#git,
+#bootstrap {
+    width: 60px;
+    height: 70px;
+}
+
+.card-img {
+    text-align: center;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.card-header {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 /* --------------- */
 
@@ -76,7 +106,6 @@ body {
     background-color: #EAEAEA;
     z-index: 1;
     /* height: 760px; */
-    height: 800px;
     /* max-height: 700px; */
 }
 
@@ -337,6 +366,28 @@ footer {
 /* --------------------------------- */
 
 
+/* 
+#css,
+#js,
+#bs,
+#twcss,
+#react,
+#sass,
+#node,
+#python,
+#django,
+#git,
+#github,
+#npm,
+#webpack,
+#babel,
+#heroku {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 19px;
+} */
+
+
 /* .skills {
     width: 500px;
     margin: 30px auto;
@@ -415,8 +466,8 @@ footer {
     width: 100%;
     border-radius: 50%; */
     border-radius: 50%;
-    height: 300px;
-    width: 90%;
+    height: 280px;
+    width: 250px;
     margin: 4px 0 0 4px;
     box-shadow: 10px 10px 5px grey;
 }
