@@ -79,7 +79,10 @@ body {
 #express,
 #heroku,
 #git,
-#bootstrap {
+#bootstrap,
+#tableau,
+#sqldev,
+#python {
     width: 60px;
     height: 70px;
 }
@@ -648,6 +651,10 @@ footer {
     margin: 0em;
     text-shadow: 0px 2px 3px black;
     z-index: 2;
+}
+
+.mytitle {
+    font-size: 1.5rem;
 }
 
 .welcome {
